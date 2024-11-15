@@ -6,7 +6,6 @@ Developed a **Task Manager** application that allows users to efficiently manage
 - **Upcoming**: Tasks that are scheduled for a future date.
 - **Overdue**: Tasks that are past their due date.
 - **Completed**: Tasks that have been finished.
-- **To-Do**: Tasks that are yet to be started.
 
 The app uses **local storage** to persist task data, ensuring that the user's data is saved even when the page is refreshed or the browser is closed. The key features of the app include:
 
