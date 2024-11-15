@@ -17,6 +17,7 @@ The app uses **local storage** to persist task data, ensuring that the user's da
 
 ## Tech Stack Used
 - **React.js**
+- **Tailwind CSS**
 - **JavaScript**: For the logic behind adding, updating, and deleting tasks, as well as interacting with local storage.
 - **Local Storage**: For storing task data locally on the browser.
   
