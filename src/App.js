@@ -59,6 +59,11 @@ function App() {
     toast("Task Completed Successfully!");
   };
 
+  const sortedTasks = tasks.sort((a, b) => {
+    const priorityMap = { high: 1, med: 2, low: 3 };
+    return priorityMap[a.priority] - priorityMap[b.priority];
+  });
+
   return (
     <div className='flex bg-slate-300  flex-col sm:flex-row h-screen w-full'>
       <Side_bar selectedDay={selectedDay} setSelectedDay={setSelectedDay} />
